@@ -42,7 +42,7 @@ The partial trace operation is used to obtain the reduced density matrix of a su
 For a three-qubit system ABC, tracing out subsystem C gives
 
 $$
-\rho_{AB}=\operatorname{Tr}_C(\rho_{ABC})
+\rho_{AB}=\mathrm{Tr}_C(\rho_{ABC})
 $$
 
 In the computational basis, its matrix elements are calculated using
@@ -96,7 +96,7 @@ $$
 **3. Normalization**
 
 $$
-\operatorname{Tr}(\rho)=1
+\mathrm{Tr}(\rho)=1
 $$
 
 **4. Positive Semidefiniteness**
@@ -144,7 +144,7 @@ $$
 Its corresponding outer-product matrix has
 
 $$
-\operatorname{Tr}(\rho)=2
+\mathrm{Tr}(\rho)=2
 $$
 
 Therefore, the validation function returns `False`, and the partial trace is skipped.
